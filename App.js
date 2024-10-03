@@ -22,7 +22,7 @@ const App = () => {
 }
 const styles = StyleSheet.create({
   container:{
-    height:500,
+    height:height*1,
   },
   header:{
     height:190,
