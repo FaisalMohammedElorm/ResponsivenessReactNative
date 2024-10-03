@@ -1,6 +1,9 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, Dimensions } from 'react-native'
 import React from 'react' 
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
+
+const {height, width} = Dimensions.get("window");
 const App = () => {
   return (
     <View style={styles.container}>
@@ -22,7 +25,7 @@ const styles = StyleSheet.create({
     height:500,
   },
   header:{
-    height:180,
+    height:190,
     backgroundColor:"tomato",
   },
   main:{
@@ -31,8 +34,16 @@ const styles = StyleSheet.create({
     flexDirection:"row"
   },
   section1:{
-    width:200,
+    width:220,
     backgroundColor:"orange"
+  },
+  section2:{
+    width: 210,
+    backgroundColor:"skyblue",
+  },
+  footer:{
+    height:300,
+    backgroundColor:"lightgreen",
   }
  
 });
