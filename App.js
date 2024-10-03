@@ -22,27 +22,27 @@ const App = () => {
 }
 const styles = StyleSheet.create({
   container:{
-    height:height*1,
+    height:hp(100)
   },
   header:{
-    height:190,
+    height:hp(15),
     backgroundColor:"tomato",
   },
   main:{
-    height:500,
+    height:hp(70),
     display: "flex",
     flexDirection:"row"
   },
   section1:{
-    width:220,
+    width:wp(50),
     backgroundColor:"orange"
   },
   section2:{
-    width: 210,
+    width: wp(50),
     backgroundColor:"skyblue",
   },
   footer:{
-    height:300,
+    height:hp(15),
     backgroundColor:"lightgreen",
   }
  
